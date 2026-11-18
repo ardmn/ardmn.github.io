@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ardmn — Remote Compose projects</title>
+    <meta
+      name="description"
+      content="Open-source projects around Jetpack Remote Compose: a live catalog of every component, a React Native player for Android and iOS, and the DevFest Armenia 2026 demo."
+    />
+    <meta name="yandex-verification" content="6e9a9b0f62c19f2d" />
+    <link rel="canonical" href="https://ardmn.github.io/" />
+    <style>
+      :root {
+        --bg: #f6f7f9;
+        --surface: #fff;
+        --border: #e2e5e9;
+        --text: #1c1f24;
+        --muted: #5f6873;
+        --accent: #2a5bc4;
+        color-scheme: light;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0f1115;
+          --surface: #161a20;
+          --border: #2a313b;
+          --text: #e6e9ee;
+          --muted: #9aa4b1;
+          --accent: #8ab4f8;
+          color-scheme: dark;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      }
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 48px 16px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 32px;
+      }
+      .lede {
+        color: var(--muted);
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        gap: 14px;
+      }
+      li {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 16px 18px;
+      }
+      a {
+        color: var(--accent);
+      }
+      li a.name {
+        font-weight: 650;
+        font-size: 18px;
+      }
+      li p {
+        margin: 6px 0 0;
+        color: var(--muted);
+      }
+      footer {
+        margin-top: 32px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>ardmn</h1>
+      <p class="lede">Open-source projects around Jetpack Remote Compose: server-driven UI for Android, and beyond.</p>
+      <ul>
+        <li>
+          <a class="name" href="https://ardmn.github.io/remote-compose-storybook/">Remote Compose Storybook</a>
+          <p>
+            Every Jetpack Remote Compose component, live in the browser: interactive demos, Kotlin code, API
+            signatures and the document each one produces.
+            <a href="https://github.com/ardmn/remote-compose-storybook">Source</a>
+          </p>
+        </li>
+        <li>
+          <a class="name" href="https://github.com/ardmn/react-native-remote-compose">react-native-remote-compose</a>
+          <p>
+            Play Remote Compose documents in React Native on Android and iOS, with named values in and actions out.
+            <a href="https://www.npmjs.com/package/react-native-remote-compose">npm</a>
+          </p>
+        </li>
+        <li>
+          <a class="name" href="https://github.com/ardmn/devfest-2026-remote-compose-demo">Brew — DevFest Armenia 2026 demo</a>
+          <p>
+            Remote Compose screens rendered on a plain JVM, a Go server, and Android and iOS apps playing the same
+            bytes.
+          </p>
+        </li>
+      </ul>
+      <footer><a href="https://github.com/ardmn">github.com/ardmn</a></footer>
+    </main>
+  </body>
+</html>

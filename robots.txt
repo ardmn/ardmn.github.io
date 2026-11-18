@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ardmn.github.io/remote-compose-storybook/sitemap.xml
